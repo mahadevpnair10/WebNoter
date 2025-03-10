@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "WebNoter",
+    "version": "1.0",
+    "description": "Take notes for specific websites!",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "icon.png"
+    },
+    "permissions": ["storage", "activeTab", "scripting","tabs"],
+    "host_permissions": ["<all_urls>"]
+  }
+  
